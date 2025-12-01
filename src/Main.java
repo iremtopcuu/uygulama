@@ -1,13 +1,22 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-  //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-  // to see how IntelliJ IDEA suggests fixing it.
-  IO.println(String.format("Hello and welcome!"));
+public class Main {
+    //tek yönlü doğrusal liste  singly linked list
+    public static void main(String[] args){
+ LinkedLists liste= new LinkedLists();
+ liste.addbegin(20);
+ liste.addbegin(15);
+ liste.addbegin(10);
+ liste.addbegin(5);
+ liste.addlast(25);
+ liste.addlast(30);
+liste.arayaekle(2,51);
+liste.arayaekle(0,1);
+liste.arayaekle(8,89);
+liste.bastansil();
+liste.sondansil();
+liste.aradansil(1);
+liste.aradansil(5);
+liste.aradansil(6);
+liste.print();
 
-  for (int i = 1; i <= 5; i++) {
-    //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-    // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-    IO.println("i = " + i);
-  }
+    }
 }
