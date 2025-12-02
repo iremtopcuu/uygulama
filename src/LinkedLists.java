@@ -153,12 +153,12 @@ public class LinkedLists {
                 System.out.print("liste boş");
             } else {
                 Node temp = head;
-                System.out.print("liste başı ");
+                System.out.print("listenin başı ");
                 while (temp != null) {
                     System.out.print(temp.data + " >> ");
                     temp = temp.next;
                 }
-                System.out.println("liste sonu");
+                System.out.println("listenin sonu");
             }
         }
 
