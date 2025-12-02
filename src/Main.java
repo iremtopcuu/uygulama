@@ -3,6 +3,7 @@ public class Main {
     public static void main(String[] args){
  LinkedLists liste= new LinkedLists();
  liste.addbegin(20);
+ liste.addbegin(50);
  liste.addbegin(15);
  liste.addbegin(10);
  liste.addbegin(5);
